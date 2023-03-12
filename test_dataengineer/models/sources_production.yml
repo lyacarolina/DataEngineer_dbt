@@ -3,6 +3,6 @@ version: 2
 sources:
   - name: sources 
     database: mongodb
-    schema: Production
+    schema: production
     tables:
-      - name: Product
+      - name: product
