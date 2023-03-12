@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sources 
+    database: mongodb
+    schema: Production
+    tables:
+      - name: Product
