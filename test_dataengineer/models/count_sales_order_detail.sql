@@ -18,8 +18,7 @@ count_order_id as(
 )
 
 select
-    SalesOrderID,
-    count_id
+    count(SalesOrderID) as qty_lines
 from
     count_order_id
 where
